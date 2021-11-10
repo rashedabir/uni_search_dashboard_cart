@@ -15,7 +15,7 @@ export default function MentorReview() {
   return (
     <Card
       className={`${styles.card}`}
-      sx={{ maxWidth: "420px", padding: "15px" }}
+      sx={{ maxWidth: "420px", padding: "10px" }}
     >
       <List sx={{ width: "100%", bgcolor: "background.paper" }}>
         <Typography

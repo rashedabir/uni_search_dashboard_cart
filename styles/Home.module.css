@@ -75,3 +75,8 @@
 .mentorsName {
   font: normal normal normal 14px/26px Poppins;
 }
+.subject {
+  font: normal normal medium 16px/25px Poppins;
+  color: #8390b1;
+  font-weight: bold;
+}

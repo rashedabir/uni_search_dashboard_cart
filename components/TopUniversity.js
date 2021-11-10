@@ -1,11 +1,4 @@
-import {
-  Card,
-  Divider,
-  List,
-  ListItem,
-  ListItemText,
-  Typography,
-} from "@mui/material";
+import { Card, Divider, List, ListItem } from "@mui/material";
 import styles from "../styles/Home.module.css";
 
 export default function TopUniversity() {
