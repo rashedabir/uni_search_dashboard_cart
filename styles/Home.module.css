@@ -6,6 +6,8 @@
   color: red;
 }
 
+/*---------------------------country score-----------------------------*/
+
 .card {
   box-shadow: none;
   border: 1px solid #ebe9f1;
@@ -51,6 +53,9 @@
   color: #f47f20;
   justify-content: center;
 }
+
+/*-------------------------------------------------------*/
+
 .topUniversityHead {
   font: normal normal medium 16px/25px Poppins;
   color: #8390b1;
@@ -83,4 +88,25 @@
 .earningProspoctesTitle {
   font: normal normal normal 14px/26px Poppins;
   color: #8390b1;
+}
+
+/*-------------university card------------*/
+
+.universityCard {
+  box-shadow: none;
+  border: 1px solid #ebe9f1;
+  margin: 20px;
+}
+.universityCardImg {
+  position: relative;
+}
+.universityCardIcons {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.universityCardButton {
+  text-align: center;
+  margin: auto;
+  padding: 15px 0;
 }

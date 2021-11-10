@@ -1,4 +1,4 @@
-import { Card, CardContent, Divider, Rating, Typography } from "@mui/material";
+import { Card, CardContent, Divider, Typography } from "@mui/material";
 import styles from "../styles/Home.module.css";
 
 export default function EarningProspects() {
