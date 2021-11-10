@@ -1,6 +1,7 @@
 import Blog from "../components/Blog";
 import CountryScore from "../components/CountryScore";
 import CourseDetails from "../components/CourseDetails";
+import EarningProspects from "../components/EarningProspects";
 import MentorReview from "../components/MentorReview";
 import SpecializationCard from "../components/SpecializationCard";
 import TopUniversity from "../components/TopUniversity";
@@ -19,6 +20,7 @@ export default function Home() {
       <Blog />
       <SpecializationCard />
       <CourseDetails />
+      <EarningProspects />
     </div>
   );
 }
