@@ -1,8 +1,13 @@
 import Blog from "../components/Blog";
+import Country from "../components/country/Country";
+import CountryComponent from "../components/CountryComponent";
 import CountryScore from "../components/CountryScore";
 import CourseDetails from "../components/CourseDetails";
 import EarningProspects from "../components/EarningProspects";
 import MentorReview from "../components/MentorReview";
+import Prospectus from "../components/Prospectus";
+import Revies from "../components/reviews/Revies";
+import SavedSearch from "../components/savedSearch/SavedSearch";
 import SpecializationCard from "../components/SpecializationCard";
 import TopUniversity from "../components/TopUniversity";
 import UniversityCard from "../components/UniversityCard";
@@ -23,6 +28,11 @@ export default function Home() {
       <CourseDetails />
       <EarningProspects />
       <UniversityCard />
+      <CountryComponent />
+      <Prospectus />
+      <SavedSearch />
+      <Country />
+      <Revies />
     </div>
   );
 }
