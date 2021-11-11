@@ -19,13 +19,13 @@ import { RiMoneyDollarBoxLine } from "react-icons/ri";
 
 export default function UniversityCard() {
   return (
-    <Card className={`${styles.universityCard}`} sx={{ maxWidth: "420px" }}>
+    <Card className={`${styles.universityCard}`} sx={{ maxWidth: "252px" }}>
       <div className={`${styles.universityCardImg}`}>
         <CardMedia
           component="img"
           image="/assets/univerisity.jpg"
           alt="university"
-          sx={{ width: "100%", height: "150px", objectFit: "cover" }}
+          sx={{ width: "252px", height: "150px", objectFit: "cover" }}
         />
         <CardMedia
           component="img"

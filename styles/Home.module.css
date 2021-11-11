@@ -105,6 +105,9 @@
   right: 10px;
   top: 10px;
 }
+.universityCardIcon {
+  font-size: 14px;
+}
 .universityCardButton {
   text-align: center;
   margin: auto;
