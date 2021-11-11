@@ -25,8 +25,20 @@ export default function UniversityCard() {
           component="img"
           image="/assets/univerisity.jpg"
           alt="university"
-          width="252px"
-          height="150px"
+          sx={{ width: "100%", height: "150px", objectFit: "cover" }}
+        />
+        <CardMedia
+          component="img"
+          image="/assets/universityLogo.png"
+          alt="logo"
+          sx={{
+            position: "absolute",
+            left: 15,
+            bottom: 15,
+            width: "52px",
+            height: "25px",
+            borderRadius: "3px",
+          }}
         />
         <div className={`${styles.universityCardIcons}`}>
           <IconButton

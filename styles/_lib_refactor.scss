@@ -1,0 +1,278 @@
+// Tab from material ui
+
+.MuiTypography-root {
+  font-family: $font-family !important;
+}
+.MuiBox-root {
+  padding: 40px 0px !important;
+  .MuiTypography-root {
+    font-family: $font-family;
+    font-size: unset;
+    letter-spacing: unset;
+  }
+}
+
+.uni_courses,
+.uni_campuses {
+  .MuiAppBar-colorDefault {
+    background-color: $white;
+  }
+}
+.overview_courses {
+  .MuiAppBar-colorDefault {
+    background-color: $bannerBg;
+  }
+}
+
+.MuiPaper-root {
+  &.MuiAppBar-colorDefault {
+    box-shadow: none;
+  }
+
+  .MuiTab-root {
+    padding: 0;
+    margin-right: 30px;
+    font-size: 16px;
+    max-width: unset;
+    min-width: unset;
+    font-family: $font-family;
+    font-weight: 600;
+    color: $body-color;
+    text-transform: initial;
+    letter-spacing: unset;
+  }
+  .MuiTab-textColorPrimary.Mui-selected {
+    color: $brand;
+  }
+  .MuiTouchRipple-root {
+    display: none;
+  }
+  .MuiTabs-indicator {
+    background-color: $brand;
+  }
+}
+
+// Accordion from material ui
+.MuiCollapse-root {
+  .MuiAccordionDetails-root {
+    display: block;
+  }
+}
+
+// Range slider from material ui
+.advanced_search_range_wrapper {
+  .MuiSlider-thumb {
+    width: 20px;
+    height: 20px;
+  }
+  .css-eg0mwd-MuiSlider-thumb {
+    top: 60%;
+  }
+}
+.MuiSlider-root {
+  color: $brand !important;
+
+  .MuiSlider-track {
+    background-color: $brand;
+    height: 3px;
+  }
+  .MuiSlider-rail {
+    background-color: $font-color;
+    height: 3px;
+    opacity: 1;
+  }
+  .MuiSlider-thumb {
+    background-color: $white;
+    border: 2px solid $brand;
+  }
+  .MuiSlider-valueLabel {
+    left: calc(-50% - 8px);
+  }
+
+  .MuiSlider-thumb.Mui-focusVisible,
+  .MuiSlider-thumb:hover {
+    box-shadow: 0px 0px 0px 8px rgba(244, 127, 31, 0.251);
+  }
+}
+
+// Slick slider from react-slick
+ul.slick-dots li {
+  margin: 0px 0px;
+}
+ul.slick-dots li button:before {
+  font-size: 13px;
+}
+
+// Checkbox
+.MuiCheckbox-root {
+  padding: 4px 8px;
+}
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked,
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+  color: #0f1041;
+}
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root {
+  color: #d8d6de;
+}
+
+// Drawer
+.MuiPaper-root {
+  // width: 100%;
+}
+
+.blog_top_story_tab {
+  .MuiButtonBase-root {
+    background-color: #fff;
+    outline: 0;
+    border: 1px solid #ced0d4;
+    border-radius: 6px;
+    margin-right: 20px;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    text-transform: initial;
+    max-width: unset;
+    min-width: 90px;
+    min-height: unset;
+    padding: 12px 16px;
+    overflow: unset;
+    white-space: normal;
+    text-align: center;
+    font-size: 18px;
+    &.Mui-selected {
+      color: $brand;
+      // border: 1px solid transparent;
+      // box-shadow: 0px 4px 10px rgba(37, 47, 63, 0.1);
+    }
+  }
+
+  .MuiTabs-indicator {
+    display: none;
+  }
+}
+
+// React video
+@media (max-width: 600px) {
+  .react-video {
+    height: auto !important;
+  }
+}
+
+.intro_video2 {
+  .poster {
+    display: none;
+  }
+}
+
+.intro_video1,
+.intro_video3 {
+  .poster > div div {
+    display: none;
+  }
+}
+
+// uni overview gallery
+.uni_overview_gallery_wrapper {
+  .uni_overview_gallery {
+    slick-slide {
+      height: auto;
+      overflow: hidden;
+      box-sizing: border-box;
+      transform: translate(2%, 0) scale(0.9);
+    }
+  }
+}
+
+// Search page
+.rct-checkbox *,
+.rct-collapse *,
+.rct-node-icon * {
+  width: 22px;
+  height: 22px;
+  min-width: 22px;
+}
+.rct-node-icon {
+  padding: 0;
+}
+
+.react-checkbox-tree label {
+  display: flex;
+}
+
+.react-checkbox-tree ol ol {
+  padding-left: 18px;
+}
+.filter_course_level,
+.filter_exam,
+.filter_application,
+.filter_scholarship {
+  .rct-collapse {
+    display: none;
+  }
+}
+
+// Uni overview gallery
+.uni_overview_gallery_slider {
+  .slick-prev {
+    left: 2%;
+    z-index: 1;
+  }
+  .slick-next {
+    right: 4%;
+    z-index: 1;
+  }
+  .slick-arrow:before {
+    font-size: 54px;
+    background: transparent;
+    color: #fff;
+  }
+  .slick-track {
+    display: flex;
+    max-height: 750px;
+  }
+
+  .slick-slide {
+    display: block;
+    height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    transform: scale(0.93);
+    border-radius: 12px;
+    div {
+      width: 100%;
+      height: 100%;
+    }
+    &.slick-current {
+      transform: scale(1);
+    }
+    img {
+      border-radius: 12px;
+      max-height: 100%;
+      object-fit: cover;
+      min-height: 100%;
+    }
+  }
+}
+
+.uni_overview_gallery_thumbnails {
+  max-width: calc(100vw - 250px);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+
+  .slick-track {
+    display: flex;
+    justify-content: center;
+    .slick-slide.slick-current img {
+      padding: 3px;
+      border: 3px solid #8e8f91;
+      width: calc(100% - 6px);
+    }
+    .slick-slide {
+      padding-right: 25px;
+      max-width: 260px;
+    }
+    img {
+      border-radius: 12px;
+    }
+  }
+}

@@ -1,0 +1,68 @@
+// Color variables
+$white: #ffffff;
+$black: #000000;
+
+$color-primary: #0f1041;
+$color-secondary: #f47f20;
+
+$primary: #4090cb;
+$success: #47bd9a;
+$info: #06c2de;
+$warning: #f9d570;
+$danger: #ff4c3b;
+$muted: #9ca8b3;
+$dark: #0f1041;
+$brand: #f47f20;
+$brand-dark: #cc620a;
+
+// Gray Colors
+$gray-100: #f1f5fd;
+$gray-200: #ebeef6;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #c7c7c7;
+$gray-600: #616f80;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+
+$bg-body: #fff;
+$footTop-bg: #002541;
+$footer-bg: #0f1041;
+$body-color: #0f1041;
+$font-color: #0f1041;
+// Light Left Bar
+$bannerBg: #f1f5fd;
+$lightBg: #e5f7f8;
+$hoverBg: #095054;
+
+$lightBlue: #cce6f8;
+
+$font-family: "Poppins", sans-serif;
+$font-family-secondary: "Poppins", sans-serif;
+
+$shadow: 0px 0px 13px 0px rgba(236, 236, 241, 0.44);
+$box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+$overlay: transparent linear-gradient(180deg, #0f10410d 0%, #0f1041e6 100%) 0%
+  0%;
+
+$base-font: 14px;
+
+// Width variables
+$width: 100%;
+
+// Height variables
+$height: 100%;
+
+$border-radius-sm: 5px;
+$border-radius-md: 10px;
+$border-radius-lg: 15px;
+$border-radius-xl: 20px;
+$border-radius-xxl: 25px;
+
+// Dashboard
+
+#__next {
+  --color-brand: #f47f20;
+  --baner-bg: #f1f5fd;
+}
