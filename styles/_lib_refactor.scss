@@ -102,6 +102,14 @@ ul.slick-dots li {
 ul.slick-dots li button:before {
   font-size: 13px;
 }
+ul.slick-dots li.slick-active button:before {
+  color: $brand;
+}
+
+ul.slick-dots li button:hover:before,
+ul.slick-dots li button:focus:before {
+  color: $brand;
+}
 
 // Checkbox
 .MuiCheckbox-root {
@@ -157,11 +165,11 @@ ul.slick-dots li button:before {
   }
 }
 
-.intro_video2 {
-  .poster {
-    display: none;
-  }
-}
+// .intro_video2 {
+//   .poster {
+//     display: none;
+//   }
+// }
 
 .intro_video1,
 .intro_video3 {
@@ -273,6 +281,37 @@ ul.slick-dots li button:before {
     }
     img {
       border-radius: 12px;
+    }
+  }
+}
+
+// Testimonials
+.testimonial_wrapper {
+  .slick-list {
+    padding: 80px 60px !important;
+  }
+  .slick-track {
+    display: flex !important;
+  }
+
+  .slick-slide {
+    height: auto;
+  }
+
+  .slick-dots {
+    bottom: 15px;
+  }
+
+  .slick-current {
+    transform: scale(1.2);
+
+    .test_quote_icon,
+    .test_video_icon {
+      color: $brand;
+    }
+
+    .test_text {
+      color: #0f1041;
     }
   }
 }

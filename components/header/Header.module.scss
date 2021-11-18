@@ -1,0 +1,32 @@
+.header {
+  background-color: #f1f5fd;
+  height: 90px;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 23px 0;
+}
+.listGroup {
+  list-style: none;
+  color: #0f1041;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  a {
+    margin: 0 15px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #0f1041;
+  }
+}
+
+.btn {
+  background-color: #f47f20;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 600;
+  padding: 5px 15px;
+}
