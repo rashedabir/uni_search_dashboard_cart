@@ -8,6 +8,7 @@ import { BiLike } from "react-icons/bi";
 import { BsJournalBookmark } from "react-icons/bs";
 import styles from "../styles/Home.module.css";
 import RegionalMarket from "../components/regionalMarket/RegionalMarket";
+import RecruiterTools from "../components/recruiterTools/recruiterTools";
 
 export default function Home() {
   const state = [
@@ -68,6 +69,9 @@ export default function Home() {
         </Grid>
       </div>
       <RegionalMarket />
+      <div className="container">
+        <RecruiterTools />
+      </div>
     </div>
   );
 }

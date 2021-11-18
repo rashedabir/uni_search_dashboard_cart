@@ -1,0 +1,31 @@
+.card_wrapper {
+  position: relative;
+  text-align: center;
+  padding: 30px;
+  display: flex;
+  min-height: 320px;
+  span {
+    font-size: 80px;
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-size: 26px;
+    color: #0f1041;
+    font-weight: 700;
+  }
+  p {
+    color: #4f4f4f;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+.border_right {
+  width: 1px;
+  height: 50%;
+  background-color: #cbdbe6;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
