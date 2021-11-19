@@ -36,7 +36,7 @@ function RecruiterTools() {
           </Grid>
         ))}
       </Grid>
-      <Grid container spacing={4}>
+      <Grid container spacing={4} alignItems="center">
         <Grid item md={6} xs={12}>
           <h2>Our Institution partners get immediate results</h2>
           <p>

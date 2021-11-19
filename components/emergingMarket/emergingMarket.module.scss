@@ -1,0 +1,34 @@
+.emrging_market {
+  background: url("/assets/background.png") no-repeat;
+  width: 100%;
+  height: 100%;
+  //   position: absolute;
+  padding: 100px 0;
+  h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 17px;
+  }
+}
+
+.icon {
+  font-size: 25px;
+  background-color: #ffffff;
+  padding: 3px;
+  border-radius: 50%;
+  color: #f47f20;
+  margin-right: 20px;
+  margin-top: 5px;
+  height: 25px;
+  min-width: 25px;
+}
+
+.item_group {
+  display: flex;
+}

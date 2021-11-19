@@ -1,0 +1,52 @@
+.best_prospectus {
+  padding: 100px 0;
+}
+.best_prospectus_details {
+  h2 {
+    font-size: 36px;
+    font-weight: 600;
+    max-width: 466px;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4f4f4f;
+    max-width: 569px;
+    margin: 20px 0;
+  }
+}
+
+.ensure_quality {
+  h2 {
+    max-width: 279px;
+    color: #0f1041;
+    font-size: 36px;
+    font-weight: 600;
+  }
+  p {
+    color: #4f4f4f;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 568px;
+    margin-bottom: 25px;
+  }
+}
+
+.icon {
+  font-size: 25px;
+  background-color: #f47f20;
+  padding: 3px;
+  border-radius: 50%;
+  color: #ffffff;
+  margin-right: 20px;
+  margin-top: 5px;
+  height: 25px;
+  min-width: 25px;
+}
+
+.item_group {
+  display: flex;
+}
+.list_group {
+  margin-bottom: 30px;
+}
